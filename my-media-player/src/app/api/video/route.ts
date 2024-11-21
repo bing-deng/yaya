@@ -7,16 +7,6 @@ export async function GET() {
       id: 1,
       title: "视频课程 1",
       url: "/videos/video1.mp4"
-    },
-    {
-      id: 2,
-      title: "视频课程 2",
-      url: "/videos/video2.mp4"
-    },
-    {
-      id: 3,
-      title: "视频课程 3",
-      url: "/videos/video3.mp4"
     }
   ]
 
