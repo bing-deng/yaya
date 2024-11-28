@@ -10,7 +10,7 @@ interface AudioItem {
   url: string
 }
 
-export default function AudioList() {
+export default function AudioList2() {
   const [audioList, setAudioList] = useState<AudioItem[]>([])
   const [playingId, setPlayingId] = useState<number | null>(null)
   const [loopingId, setLoopingId] = useState<number | null>(null)
@@ -24,8 +24,8 @@ export default function AudioList() {
     // 使用循环生成 42 个音频文件的数据
     const mockData = Array.from({ length: 42 }, (_, index) => ({
       id: index + 1,
-      title: `Spelling Bee Part ${index + 1}`,
-      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/KG-P${index + 1}.MP3`
+      title: `Grammar Unit ${index + 1}`,
+      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/grammer/unit_${index + 1}.mp3`
     }))
     
     setAudioList(mockData)

@@ -6,7 +6,7 @@ export async function GET() {
     {
       id: 1,
       title: "视频课程 1",
-      url: "/videos/video1.mp4"
+      url: "https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/videos/video1.mp4"
     }
   ]
 

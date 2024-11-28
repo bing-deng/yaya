@@ -2,6 +2,7 @@
 
 import { Tabs, Tab } from "@nextui-org/react"
 import AudioList from "@/components/AudioList"
+import AudioList2 from "@/components/AudioList2"
 import VideoList from "@/components/VideoList"
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-600">
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold text-white mb-8 text-center">
-          Media Player
+          Hello ,kiman!
         </h1>
         
         <div className="bg-white/10 backdrop-blur-md rounded-lg p-4">
@@ -26,10 +27,17 @@ export default function Home() {
           >
             <Tab
               key="music"
-              title="Music"
+              title="Spelling Bee"
               className="text-white"
             >
               <AudioList />
+            </Tab>
+            <Tab
+              key="music2"
+              title="Grammar"
+              className="text-white"
+            >
+              <AudioList2 />
             </Tab>
             <Tab
               key="video"
