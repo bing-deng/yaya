@@ -17,12 +17,20 @@ export default function VideoList() {
 
   useEffect(() => {
     // 模拟从API获取数据
-    const fetchData = async () => {
-      const response = await fetch('/api/video')
-      const data = await response.json()
-      setVideoList(data)
-    }
-    fetchData()
+    // const fetchData = async () => {
+    //   const response = await fetch('/api/video')
+    //   const data = await response.json()
+    //   setVideoList(data)
+    // }
+    // fetchData()
+    const data = [
+      {
+        id: 1,
+        title: "Video 1",
+        url: "https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/videos/video1.mp4"
+      }
+    ]
+    setVideoList(data)
   }, [])
 
   const handlePlay = (id: number) => {
