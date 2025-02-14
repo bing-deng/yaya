@@ -39,12 +39,13 @@ export default function Home() {
               className="text-white"
             >
               <AudioList2 />
-              <Tab
+            </Tab>
+            <Tab
               key="music3"
               title="Zin-Zin!!"
               className="text-white"
             >
-              <AudioList2 />
+              <AudioList3 />
             </Tab>
             <Tab
               key="video"
