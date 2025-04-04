@@ -23,7 +23,7 @@ export default function AudioList6() {
   useEffect(() => {
     const mockData = Array.from({ length: 36 }, (_, index) => ({
       id: index + 1,
-      title: `Zin Unit ${index + 1}`,
+      title: `Superstar Unit ${index + 1}`,
       url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/Superstar-Songs-1/${index + 1}.mp3`
     }))
     

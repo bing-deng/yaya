@@ -23,7 +23,7 @@ export default function AudioList7() {
   useEffect(() => {
     const mockData = Array.from({ length: 8 }, (_, index) => ({
       id: index + 1,
-      title: `Zin Unit ${index + 1}`,
+      title: `Jungle Unit ${index + 1}`,
       url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/Walking-Through-The-Jungle/${index + 1}.mp3`
     }))
     

@@ -23,7 +23,7 @@ export default function AudioList4() {
   useEffect(() => {
     const mockData = Array.from({ length: 42 }, (_, index) => ({
       id: index + 1,
-      title: `Zin Unit ${index + 1}`,
+      title: `LRP Unit ${index + 1}`,
       url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/LRP/LR-P${index + 1}.mp3`
     }))
     
