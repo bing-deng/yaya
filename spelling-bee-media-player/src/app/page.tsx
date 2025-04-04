@@ -4,6 +4,10 @@ import { Tabs, Tab } from "@nextui-org/react"
 import AudioList from "@/components/AudioList"
 import AudioList2 from "@/components/AudioList2"
 import AudioList3 from "@/components/AudioList3"
+import AudioList4 from "@/components/AudioList4"
+import AudioList5 from "@/components/AudioList5"
+import AudioList6 from "@/components/AudioList6"
+import AudioList7 from "@/components/AudioList7"
 import VideoList from "@/components/VideoList"
 
 export default function Home() {
@@ -46,6 +50,34 @@ export default function Home() {
               className="text-white"
             >
               <AudioList3 />
+            </Tab>
+            <Tab
+              key="music4"
+              title="LR-P"
+              className="text-white"
+            >
+              <AudioList4 />
+            </Tab>
+            <Tab
+              key="music5"
+              title="TSS"
+              className="text-white"
+            >
+              <AudioList5 />
+            </Tab>
+            <Tab
+              key="music6"
+              title="Superstar-Songs-1"
+              className="text-white"
+            >
+              <AudioList6 />
+            </Tab>
+            <Tab
+              key="music7"
+              title="Walking-Through-The-Jungle"
+              className="text-white"
+            >
+              <AudioList7 />
             </Tab>
             <Tab
               key="video"
