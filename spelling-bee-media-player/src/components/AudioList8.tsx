@@ -24,7 +24,7 @@ export default function AudioList7() {
     const mockData = Array.from({ length: 42 }, (_, index) => ({
       id: index + 1,
       title: `PreY Unit ${index + 1}`,
-      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/PreY/PreY-P${index + 1}.mp3`
+      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/PreY/PreY-P${index + 1}.MP3`
     }))
     
     setAudioList(mockData)
