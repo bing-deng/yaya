@@ -9,6 +9,7 @@ import AudioList5 from "@/components/AudioList5"
 import AudioList6 from "@/components/AudioList6"
 import AudioList7 from "@/components/AudioList7"
 import AudioList8 from "@/components/AudioList8"
+import AudioList9 from "@/components/AudioList9"
 import VideoList from "@/components/VideoList"
 
 export default function Home() {
@@ -86,7 +87,15 @@ export default function Home() {
               className="text-white"
             >
               <AudioList8 />
+              
             </Tab>
+            <Tab
+                key="music9"
+                title="yasa-abc"
+                className="text-white"
+              >
+                <AudioList9 />
+              </Tab>
             <Tab
               key="video"
               title="Video"
