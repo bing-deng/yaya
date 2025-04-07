@@ -24,7 +24,7 @@ export default function AudioList9() {
     const mockData = Array.from({ length: 64 }, (_, index) => ({
       id: index + 1,
       title: `ABC Unit ${index + 1}`,
-      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/yasa-abc/${index + 1} Track ${index + 1}.mp3`
+      url: `https://github.com/bing-deng/yaya/raw/refs/heads/main/spelling-bee-media-player/public/audios/yasa-abc/${index + 1}%20Track%20${index + 1}.mp3`
     }))
     
     setAudioList(mockData)
